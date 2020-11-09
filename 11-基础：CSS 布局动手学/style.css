@@ -1,0 +1,155 @@
+body {
+    background-color: #efefef;
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+hr {
+    height: 0;
+    border: 0;
+    border-top: 1px solid #DEDEDE
+}
+.topNavBar{
+    padding: 20px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.topNavBar a.logo {
+    float: left;
+    font-size: 24px;
+    font-family: 'Arial Black';
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.topNavBar a.logo .rs {
+    color: #e6686a;
+}
+.topNavBar a.logo .card {
+    color: #9a9da2;
+}
+.topNavBar nav {
+    float: right;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.topNavBar nav ul li {
+    float: left;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.topNavBar nav ul li a {
+    color: #b7b7b7;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 0;
+    border: 3px solid transparent;
+    display: block;
+}
+.topNavBar nav ul li a:hover {
+    border-bottom: 3px solid #e06567;
+}
+.banner {
+    height: 515px;
+    background: url('./img/rs-cover.jpg');
+    background-position: center center ;
+    background-size: cover;
+}
+.banner .mask {
+    height: 515px;
+    background: rgba(0,0,0,0.8);
+}
+.userCard {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+.userCard .pictureAndText{
+    padding: 50px;
+}
+.userCard .pictureAndText .picture{
+    float: left;
+}
+.userCard .pictureAndText .text{
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+.userCard .pictureAndText .text .welcome{
+    background-color: #e6686a;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 16px;
+    position: relative;
+    line-height: 22px;
+}
+.userCard .pictureAndText .welcome .triangle {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-width: 0;
+    border-left-color: #e6686a;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+    display: block;
+}
+.userCard .pictureAndText .text h1{
+    margin-top: 30px;
+}
+.userCard .pictureAndText .text hr {
+    margin: 20px 0;
+}
+.userCard .pictureAndText dl dt,
+.userCard .pictureAndText dl dd {
+    float: left;
+    padding: 5px 0;
+}
+.userCard .pictureAndText dl dt {
+    width: 30%;
+    font-weight: bold;
+}
+.userCard .pictureAndText dl dd {
+    width: 70%;
+    color: #9da0a7;
+}
+.userCard .media{
+    background-color: #E6686A;
+    text-align: center;
+}
+.userCard .media a {
+    display: inline-block;
+    width: 40px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+    line-height: 30px;
+}
+.userCard .media a:hover {
+    background: #CF5D5F;
+}
+.userCard .media svg{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    vertical-align: top;
+}
