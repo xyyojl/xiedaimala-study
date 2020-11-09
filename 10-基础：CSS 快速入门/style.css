@@ -1,0 +1,55 @@
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    background: grey;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.topNavBar {
+    padding: 22px;
+}
+.topNavBar a.logo {
+    float: left;
+    font-size: 24px;
+    font-family: 'Arial Black';
+    height: 34px;
+}
+.topNavBar a.logo .rs {
+    color: #e6686a;
+}
+.topNavBar a.logo .card {
+    color: #9a9da2;
+   
+}
+.topNavBar nav {
+    float: right;
+}
+.topNavBar nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.topNavBar nav ul li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.topNavBar nav ul li a {
+    color: rgb(183, 183, 183);
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    border: 3px solid transparent;
+}
+.topNavBar nav ul li a:hover {
+    border-bottom: 3px solid orange;
+}
