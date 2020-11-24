@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {text-decoration: none;}
+kbd {
+    position: relative;
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    border: 1px solid red;
+    text-transform: uppercase;
+}
+kbd > button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+kbd:hover > button {
+    display: inline-block;
+}
+main {
+    text-align: center;
+}
+.warpper {
+    display: inline-block;
+}
+.warpper > div:nth-child(2){
+    margin-left: 2em;
+}
+.warpper > div:nth-child(3){
+    margin-left: 4em;
+}
